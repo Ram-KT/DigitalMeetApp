@@ -28,4 +28,4 @@ st.set_page_config(layout="wide")
 
 a = st.container(border=True)
 
-a.image("liveEventHasNotStartedFinal.png",width=None, use_column_width=None, channels="RGB", output_format="auto")
+a.image("liveEventHasNotStartedFinal.png",width=None, use_column_width=True, channels="RGB", output_format="auto")
