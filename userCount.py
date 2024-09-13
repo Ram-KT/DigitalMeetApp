@@ -29,8 +29,13 @@ st.set_page_config(layout="wide")
 # # embed streamlit docs in a streamlit app
 # components.iframe("https://teams.microsoft.com/convene/meetings/b5ff47a6-f7b4-4abf-a484-a75057bd8139__e6de7ade-191f-4b03-96a0-63290e12461e__19:ameeting_ZmE0MzBkOTQtMWJmZS00Yzg3LThmNTMtNmI2MzhlM2Q3ZDhm@thread.v2__0/join?embed=true", height=500)
 # 
+
 # =============================================================================
-st.page_link("https://teams.microsoft.com/l/meetup-join/19:Tbi3IBWomce-Ushp-y8fssPRHbRi2reMdqLV2bRY0zs1@thread.tacv2/1726225860615?context=%7B%22Tid%22:%22b9abe56c-43a7-4e67-a17b-32cfa05c95c8%22,%22Oid%22:%22020a7cb4-5dcb-49f0-8a08-26360032c14d%22%7D")
+st.markdown(
+    '[Join the Teams Meeting](https://teams.microsoft.com/l/meetup-join/19:Tbi3IBWomce-Ushp-y8fssPRHbRi2reMdqLV2bRY0zs1@thread.tacv2/1726225860615?context=%7B%22Tid%22:%22b9abe56c-43a7-4e67-a17b-32cfa05c95c8%22,%22Oid%22:%22020a7cb4-5dcb-49f0-8a08-26360032c14d%22%7D)',
+    unsafe_allow_html=True
+)
+
 a = st.container(border=True)
 
 a.image("liveEventHasNotStartedFinal.png",width=None, use_column_width=True, channels="RGB", output_format="auto")
