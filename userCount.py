@@ -1,4 +1,4 @@
-no# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 Created on Mon Sep  9 10:06:02 2024
 
