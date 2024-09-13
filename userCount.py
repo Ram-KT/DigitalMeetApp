@@ -12,9 +12,9 @@ st.set_page_config(layout="wide")
 
 # =============================================================================
 #components.html(
-    """
+    #"""
      <iframe src="https://teams.microsoft.com/convene/meetings/b5ff47a6-f7b4-4abf-a484-a75057bd8139__628b816e-c580-4cea-a38f-ef711c65e278__19:meeting_NjlhZmM5ZmYtMDczMy00YTY2LWEyMjQtOTlmY2I5NDlkZDg1@thread.v2/join?embed=true" width='1280' height='720' allowfullscreen"></iframe>
-     """,height=720, width=1500 )
+     #""",height=720, width=1500 )
 
 components.html(
       """
