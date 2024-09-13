@@ -4,7 +4,7 @@ Created on Mon Sep  9 10:06:02 2024
 
 @author: 130793
 """
-#import streamlit.components.v1 as components
+import streamlit.components.v1 as components
 
 import streamlit as st
 
