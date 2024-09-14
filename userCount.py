@@ -8,6 +8,17 @@ import streamlit.components.v1 as components
 
 import streamlit as st
 
+page_bg = """
+<style>
+body {
+    background-color: #091238; /* Light blue background */
+}
+</style>
+"""
+
+# Render the CSS in the Streamlit app
+st.markdown(page_bg, unsafe_allow_html=True)
+
 st.set_page_config(layout="wide")
 
 st.markdown("<h1 style='text-align: center;font-size: 40px;'>Welcome to Digital Meet (Manufacturing) 2024</h1>", unsafe_allow_html=True)
