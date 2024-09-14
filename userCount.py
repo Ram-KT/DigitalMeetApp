@@ -26,7 +26,7 @@ st.logo("./itc-logo-removebg-preview.png", link="https://www.itcpspd.com/")
 st.html("""
   <style>
     [alt=Logo] {
-      height: 4rem;
+      height: 2rem;
     }
   </style>
         """)
