@@ -8,16 +8,16 @@ import streamlit.components.v1 as components
 
 import streamlit as st
 
-page_bg = """
-<style>
-body {
-    background-color: #091238; /* Light blue background */
-}
-</style>
-"""
+# page_bg = """
+# <style>
+# body {
+#     background-color: #091238; /* Light blue background */
+# }
+# </style>
+# """
 
-# Render the CSS in the Streamlit app
-st.markdown(page_bg, unsafe_allow_html=True)
+# # Render the CSS in the Streamlit app
+# st.markdown(page_bg, unsafe_allow_html=True)
 
 st.set_page_config(layout="wide")
 
