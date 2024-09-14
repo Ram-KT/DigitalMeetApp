@@ -8,6 +8,16 @@ import streamlit.components.v1 as components
 
 import streamlit as st
 
+st.logo("./itc-logo-removebg-preview.png", link="https://www.itcpspd.com/")
+
+st.html("""
+  <style>
+    [alt=Logo] {
+      height: 4rem;
+    }
+  </style>
+        """)
+
 # page_bg = """
 # <style>
 # body {
