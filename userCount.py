@@ -42,7 +42,7 @@ a = st.container(border=True)
 
 a.image("liveEventHasNotStartedFinal.png",width=None, use_column_width=True, channels="RGB", output_format="auto")
 
-a = st.columns(2)
-a[0].image("Slide1.PNG",use_column_width=True)
-a[1].image("Slide2.PNG",use_column_width=True)
+b = st.columns(2)
+b[0].image("Slide1.PNG",use_column_width=True)
+b[1].image("Slide2.PNG",use_column_width=True)
 
