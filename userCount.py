@@ -111,9 +111,9 @@ b = st.columns(2)
 b[0].image("Slide1.PNG",use_column_width=True)
 b[1].image("Slide2.PNG",use_column_width=True)
 
-# c = st.columns(3)
-# c[0].image("speakerBio\Slide1.PNG",use_column_width=True)
-# c[1].image("speakerBio\Slide2.PNG",use_column_width=True)
-# c[2].image("speakerBio\Slide3.PNG",use_column_width=True)
+c = st.columns(3)
+c[0].image("Slide3.PNG",use_column_width=True)
+c[1].image("Slide4.PNG",use_column_width=True)
+c[2].image("Slide5.PNG",use_column_width=True)
 
 
