@@ -60,7 +60,7 @@ st.markdown("<h1 style='text-align: center;font-size: 40px;'>Welcome to Digital 
 st.markdown("""
     <div style="text-align: center;">
         <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2IzM2Q4OWQtMmJjNy00ZGI3LTgzN2ItYjA0OWExYThlZDUx%40thread.v2/0?context=%7b%22Tid%22%3a%22b5ff47a6-f7b4-4abf-a484-a75057bd8139%22%2c%22Oid%22%3a%22e6de7ade-191f-4b03-96a0-63290e12461e%22%7d"">
-            Digital Meet Session Summary
+            Join the Teams Meeting by clicking on me!!
         </a>
     </div>
     """, unsafe_allow_html=True)
