@@ -56,10 +56,9 @@ st.markdown("<h1 style='text-align: center;font-size: 40px;'>Welcome to Digital 
 # 
 
 # # =============================================================================
-# st.markdown(
-#     '[Join the Teams Meeting](https://teams.microsoft.com/l/meetup-join/19:Tbi3IBWomce-Ushp-y8fssPRHbRi2reMdqLV2bRY0zs1@thread.tacv2/1726225860615?context=%7B%22Tid%22:%22b9abe56c-43a7-4e67-a17b-32cfa05c95c8%22,%22Oid%22:%22020a7cb4-5dcb-49f0-8a08-26360032c14d%22%7D)',
-#     unsafe_allow_html=True
-# )
+st.markdown(
+     '[Join the Teams Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2IzM2Q4OWQtMmJjNy00ZGI3LTgzN2ItYjA0OWExYThlZDUx%40thread.v2/0?context=%7b%22Tid%22%3a%22b5ff47a6-f7b4-4abf-a484-a75057bd8139%22%2c%22Oid%22%3a%22e6de7ade-191f-4b03-96a0-63290e12461e%22%7d',
+     unsafe_allow_html=True)
 
 a = st.container(border=True)
 
