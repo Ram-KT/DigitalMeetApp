@@ -103,9 +103,9 @@ st.markdown("""
     </div>
     """, unsafe_allow_html=True)
 
-a = st.container(border=True)
+# a = st.container(border=True)
 
-a.image("liveEventHasNotStartedFinal.png",width=None, use_column_width=True, channels="RGB", output_format="auto")
+# a.image("liveEventHasNotStartedFinal.png",width=None, use_column_width=True, channels="RGB", output_format="auto")
 
 b = st.columns(2)
 b[0].image("Slide1.PNG",use_column_width=True)
