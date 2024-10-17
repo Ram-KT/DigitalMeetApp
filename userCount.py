@@ -31,7 +31,7 @@ st.html("""
   </style>
         """)
 
-st.markdown("<h1 style='text-align: center;font-size: 40px;'>Welcome to Digital Meet (Manufacturing) 2024</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;font-size: 40px;'>Welcome to Digital Meet (Non-Manufacturing) 2024</h1>", unsafe_allow_html=True)
 #st.markdown("<h1 style='text-align: center;font-size: 40px;'>(Manufacturing)</h1>", unsafe_allow_html=True)
 #st.markdown("<h1 style='text-align: center;font-size: 40px;'>2024</h1>", unsafe_allow_html=True)
 
