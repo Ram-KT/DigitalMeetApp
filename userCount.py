@@ -69,7 +69,7 @@ st.markdown("<h1 style='text-align: center;font-size: 40px;'>Welcome to Digital 
 #      '[Join the Teams Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWY0YTNmMDAtZjkxYy00ZjhkLTk0MDAtNTcyMzU3YWU4MTVi%40thread.v2/0?context=%7b%22Tid%22%3a%22b5ff47a6-f7b4-4abf-a484-a75057bd8139%22%2c%22Oid%22%3a%22cbd8e274-a896-4b27-bed0-b7058855547d%22%7d)',
 #      unsafe_allow_html=True)
 
- Custom HTML button centered horizontally and vertically on the screen with bigger size and rounded corners
+ #Custom HTML button centered horizontally and vertically on the screen with bigger size and rounded corners
  st.markdown("""
      <style>
          .centered-button {
