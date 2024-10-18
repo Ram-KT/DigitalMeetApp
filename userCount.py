@@ -70,7 +70,7 @@ st.markdown("<h1 style='text-align: center;font-size: 40px;'>Welcome to Digital 
 #      unsafe_allow_html=True)
 
  #Custom HTML button centered horizontally and vertically on the screen with bigger size and rounded corners
- st.markdown("""
+st.markdown("""
      <style>
          .centered-button {
              display: flex;
