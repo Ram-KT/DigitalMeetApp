@@ -66,46 +66,46 @@ st.markdown("<h1 style='text-align: center;font-size: 40px;'>Welcome to Digital 
 #     """, unsafe_allow_html=True)
 
 # st.markdown(
-#      '[Join the Teams Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2IzM2Q4OWQtMmJjNy00ZGI3LTgzN2ItYjA0OWExYThlZDUx%40thread.v2/0?context=%7b%22Tid%22%3a%22b5ff47a6-f7b4-4abf-a484-a75057bd8139%22%2c%22Oid%22%3a%22e6de7ade-191f-4b03-96a0-63290e12461e%22%7d)',
+#      '[Join the Teams Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWY0YTNmMDAtZjkxYy00ZjhkLTk0MDAtNTcyMzU3YWU4MTVi%40thread.v2/0?context=%7b%22Tid%22%3a%22b5ff47a6-f7b4-4abf-a484-a75057bd8139%22%2c%22Oid%22%3a%22cbd8e274-a896-4b27-bed0-b7058855547d%22%7d)',
 #      unsafe_allow_html=True)
 
-# Custom HTML button centered horizontally and vertically on the screen with bigger size and rounded corners
-# st.markdown("""
-#     <style>
-#         .centered-button {
-#             display: flex;
-#             justify-content: center;
-#             align-items: center;
-#             height: 20vh; /* Adjust height to center vertically */
-#         }
-#         .custom-button {
-#             background-color: #4f42b5; /* Green background */
-#             color: white; /* White text */
-#             padding: 20px 25px; /* Increased padding for a larger button */
-#             font-size: 26px; /* Larger font size */
-#             font-family: 'Segoe UI', sans-serif; /* Set font to Segoe UI */
-#             font-weight: bold; /* Make text bold */
-#             border: 1px solid #109dd9; /* Slightly thick border */
-#             border-radius: 30px; /* More rounded corners */
-#             cursor: pointer; /* Pointer on hover */
-#         }
-#         .custom-button:hover {
-#             background-color: #7b83eb; /* Slightly darker green on hover */
-#         }
-#     </style>
+ Custom HTML button centered horizontally and vertically on the screen with bigger size and rounded corners
+ st.markdown("""
+     <style>
+         .centered-button {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             height: 20vh; /* Adjust height to center vertically */
+         }
+         .custom-button {
+             background-color: #4f42b5; /* Green background */
+             color: white; /* White text */
+             padding: 20px 25px; /* Increased padding for a larger button */
+             font-size: 26px; /* Larger font size */
+             font-family: 'Segoe UI', sans-serif; /* Set font to Segoe UI */
+             font-weight: bold; /* Make text bold */
+             border: 1px solid #109dd9; /* Slightly thick border */
+             border-radius: 30px; /* More rounded corners */
+             cursor: pointer; /* Pointer on hover */
+         }
+         .custom-button:hover {
+             background-color: #7b83eb; /* Slightly darker green on hover */
+         }
+     </style>
 
-#     <div class="centered-button">
-#         <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2IzM2Q4OWQtMmJjNy00ZGI3LTgzN2ItYjA0OWExYThlZDUx%40thread.v2/0?context=%7b%22Tid%22%3a%22b5ff47a6-f7b4-4abf-a484-a75057bd8139%22%2c%22Oid%22%3a%22e6de7ade-191f-4b03-96a0-63290e12461e%22%7d">
-#             <button class="custom-button">
-#                 Click here to join the Digital Meet Live! 
-#             </button>
-#         </a>
-#     </div>
-#     """, unsafe_allow_html=True)
+     <div class="centered-button">
+         <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWY0YTNmMDAtZjkxYy00ZjhkLTk0MDAtNTcyMzU3YWU4MTVi%40thread.v2/0?context=%7b%22Tid%22%3a%22b5ff47a6-f7b4-4abf-a484-a75057bd8139%22%2c%22Oid%22%3a%22cbd8e274-a896-4b27-bed0-b7058855547d%22%7d">
+             <button class="custom-button">
+                 Click here to join the Digital Meet Live! 
+             </button>
+         </a>
+     </div>
+     """, unsafe_allow_html=True)
 
 # a = st.container(border=True)
 
-# a.image("liveEventHasNotStartedFinal.png",width=None, use_column_width=True, channels="RGB", output_format="auto")
+a.image("liveEventHasNotStartedFinal.png",width=None, use_column_width=True, channels="RGB", output_format="auto")
 
 b = st.columns(2)
 b[0].image("Slide1.PNG",use_column_width=True)
