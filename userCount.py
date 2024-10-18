@@ -103,7 +103,7 @@ st.markdown("""
      </div>
      """, unsafe_allow_html=True)
 
-# a = st.container(border=True)
+a = st.container(border=True)
 
 a.image("liveEventHasNotStartedFinal.png",width=None, use_column_width=True, channels="RGB", output_format="auto")
 
